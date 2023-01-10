@@ -11,9 +11,7 @@ describe('PokeHeaderComponent', () => {
       declarations: [ PokeHeaderComponent ]
     })
     .compileComponents();
-  });
 
-  beforeEach(() => {
     fixture = TestBed.createComponent(PokeHeaderComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
